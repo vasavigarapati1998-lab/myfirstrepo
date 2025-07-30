@@ -1,4 +1,3 @@
-Here are three simple examples of Node.js code to help you get started:
 
 1. Basic HTTP Server
 This code creates a basic web server that responds with "Hello, World!" when accessed.
