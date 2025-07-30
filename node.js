@@ -1,6 +1,5 @@
 
 1. Basic HTTP Server
-This code creates a basic web server that responds with "Hello, World!" when accessed.
 
 
 Copy code
