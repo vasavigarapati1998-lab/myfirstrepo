@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // Requiring the fs module
 const fs = require("fs")
 
@@ -14,3 +15,21 @@ let arr = readFileLines('gfg.txt');
 
 // Print the array
 console.log(arr);
+=======
+// Requiring the fs module
+const fs = require("fs")
+
+// Creating a function which takes a file as input
+const readFileLines = filename =>
+  fs
+    .readFileSync(filename)
+    .toString('UTF8')
+    .split('\n');
+
+
+// Driver code
+let array = readFileLines('gfg.txt');
+
+// Print the array
+console.log(array);
+>>>>>>> Stashed changes
